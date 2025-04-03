@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: #121212;
+    color: #ffffff;
+}
+
+.container{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+}
