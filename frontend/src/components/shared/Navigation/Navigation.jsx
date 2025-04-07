@@ -19,7 +19,7 @@ function Navigation() {
     <nav className={`container ${styles.navbar}`}>
       <Link style={brandstyle} to="/">
         <img src="/logo.png" alt="Logo" />
-        <span style={logotext}>Chit Chat</span>
+        <span style={logotext}>Chit-Chat</span>
       </Link>
     </nav>
   );

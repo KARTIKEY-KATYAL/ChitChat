@@ -1,0 +1,30 @@
+.button {
+    display: flex;
+    background: #0077FF;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 15px 0px;
+    font-weight: bold;
+    
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+.button:active {
+    background: #004494;
+}
+
+button:focus {
+    outline: none;
+}
+
+.button:focus-visible {
+    outline: 2px solid #0077FF;
+    outline-offset: 2px;
+}
