@@ -25,7 +25,7 @@ function Home() {
         <div className={style.inviteText}>
           <span>Have an invite text? </span>
           <Link to="/login" className={style.link}>
-            Sign in here.
+            Sign in
           </Link>
         </div>
       </Card>
